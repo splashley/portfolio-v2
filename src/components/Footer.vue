@@ -1,14 +1,24 @@
 <template>
   <div class="hello">
-Footer
+    <p>Designed by me & created with VueJS</p>
   </div>
 </template>
 
 <script>
-export default {
-}
 </script>
 
 <style scoped>
+div {
+  background-color: #bcafc4;
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+}
 
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 0.75rem;
+  }
+}
 </style>
