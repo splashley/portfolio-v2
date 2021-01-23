@@ -1,7 +1,7 @@
 <template>
-  <div class="hello">
+  <div class="hello" id="Contact">
 <h1>Contact</h1>
-<p>You can contact me at ashleyjlhynes@gmail.com</p>
+<p>You can contact me at <a href="mailto:ashleyjlhynes@gmail.com">ashleyjlhynes@gmail.com</a></p>
   </div>
 </template>
 
@@ -14,6 +14,14 @@ export default {
 div {
   text-align: left;
   padding: 4rem 18rem;
+}
+
+p {
+  margin: 20px 0 30px 0;
+}
+
+a {
+  color: #190540;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -2,9 +2,9 @@
   <div class="header">
     <div class="nav-links">
       <ul>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contact</li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Contact">Contact</a></li>
       </ul>
     </div>
     <div>
@@ -29,6 +29,16 @@ export default {
   justify-content: flex-end;
   text-align: right;
   padding: 4rem 18rem;
+}
+
+a {
+color: #190540;
+text-decoration: none;
+letter-spacing: 0.10rem;
+}
+
+a:hover {
+  color: #fedb63;
 }
 
 ul {

@@ -1,5 +1,5 @@
 <template>
-  <div class="skills">
+  <div class="skills" id="Skills">
     <h1>Skills</h1>
     <div>
       <div class="skills-group">
@@ -24,7 +24,7 @@ export default {
     return {
       skills: [
         { name: "Frontend", sublist: ["HTML/CSS", "Javascript", "React.js", "Vue.js", "Styled-Components", "TailwindCSS"] },
-        { name: "Backend", sublist: ["Node.js", "Express"] },
+        { name: "Backend", sublist: ["Node.js", "Express", "MongoDB"] },
         { name: "Tools", sublist: ["Github", "Git", "JIRA", "Trello", "Asana", "Adobe Photoshop", "Adobe XD"] }
       ]
     };
@@ -48,9 +48,17 @@ export default {
 .skillName {
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 10px 40px 0 40px;
+  margin: 20px 20px 0 20px;
+    background-color: #f3f0f5;
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
+  padding: 30px;
 }
 
+.skillName-list:first-child {
+  margin-top: 10px;
+}
 .skillName-list {
   font-size: 1rem;
   font-weight: 400;
@@ -73,5 +81,14 @@ export default {
   .skills {
     padding: 1rem 2rem;
   }
+
+  .skills-group {
+  display: flex;
+  flex-direction: column;
+}
+.skillName {
+  margin-left: 0px;
+}
+
 }
 </style>

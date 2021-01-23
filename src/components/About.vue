@@ -1,5 +1,5 @@
 <template>
-  <div class="about-wrapper">
+  <div class="about-wrapper" id="About">
     <div class="left">
       <div class="slide-right">
         <h1><span class="box">Hi, I'm Ashley</span></h1>
@@ -72,6 +72,12 @@ h2 {
   margin-top: 30px;
   padding-right: 50px;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1500px) {
+  .p-about {
+    font-size: 1.25rem;
+  }
 }
 
 @media only screen and (max-width: 1200px) {

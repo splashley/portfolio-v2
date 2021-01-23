@@ -1,12 +1,25 @@
 <template>
-  <div class="projects">
+  <div class="projects" id="Projects">
     <h1>Projects</h1>
     <div class="projects-section">
       <div class="single-project">
-        blah blah blah
+        <h2>Project Title</h2>
+        <img src="../assets/project1.jpg" width="70%" alt="" />
+        <p>Here is all about my project blah blah blah</p>
+        <p>Tech Stack: React, Styled-Components</p>
       </div>
-      <div class="single-project"></div>
-      <div class="single-project"></div>
+      <div class="single-project">
+        <h2>Project Title</h2>
+        <img src="../assets/project1.jpg" width="70%" alt="" />
+        <p>Here is all about my project blah blah blah</p>
+        <p>Tech Stack: React, Styled-Components</p>
+      </div>
+      <div class="single-project">
+        <h2>Project Title</h2>
+        <img src="../assets/project1.jpg" width="70%" alt="" />
+        <p>Here is all about my project blah blah blah</p>
+        <p>Tech Stack: React, Styled-Components</p>
+      </div>
     </div>
   </div>
 </template>
@@ -16,6 +29,9 @@ export default {};
 </script>
 
 <style scoped>
+h2 {
+  margin: 10px 0;
+}
 .projects {
   text-align: left;
   width: 100%;
@@ -33,6 +49,7 @@ export default {};
   height: 400px;
   padding: 10px;
   margin: 20px;
+  text-align: center;
 }
 
 .single-project:first-child {
@@ -53,17 +70,16 @@ export default {};
 
 @media only screen and (max-width: 768px) {
   .projects-section {
-  display: flex;
-  flex-direction: column;
-}
-.single-project {
-  margin-left: 0;
-  margin-top: 10px;
-}
+    display: flex;
+    flex-direction: column;
+  }
+  .single-project {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 
   .projects {
     padding: 1rem 2rem;
   }
-
 }
 </style>
