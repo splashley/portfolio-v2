@@ -85,9 +85,16 @@ export default {
   .skills-group {
   display: flex;
   flex-direction: column;
-}
+  }
+
 .skillName {
   margin-left: 0px;
+    font-size: 1.5rem;
+    background-color: #f3f0f5;
+  border-radius: 5px;
+  width: 200px;
+  height: 100%;
+  padding: 30px;
 }
 
 }

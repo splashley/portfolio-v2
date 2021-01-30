@@ -3,22 +3,24 @@
     <div class="left">
       <div class="slide-right">
         <h1><span class="box">Hi, I'm Ashley</span></h1>
-        <h2>Front-End Developer</h2>
+        <h2>Frontend Developer</h2>
       </div>
       <div>
         <p class="p-about">
-          Let's put some happy little bushes on the other side now. We need dark
-          in order to show light. I guess that would be considered a UFO. A big
-          cotton ball in the sky. You don't want to kill all your dark areas
-          they are very important.Let's put some happy little bushes on the
-          other side now. We need dark in order to show light. I guess that
-          would be considered a UFO. A big cotton ball in the sky. You don't
-          want to kill all your dark areas they are very important.
+          I'm a front-end developer who recently completed a Full-Stack Web
+          Development coding bootcamp at Concordia University. Since graduating,
+          I've been hard at work expanding my knowledge of new web frameworks.
+          In my spare time I stream web development on Twitch, you can watch me
+          <a href="https://www.twitch.com/splashley" target="_blank">here</a>.
         </p>
       </div>
     </div>
     <div class="right">
-      <img src="@/assets/test.png" width="400px" alt="" />
+      <img
+        src="@/assets/test.png"
+        width="400px"
+        alt="A portrait of Ashley Hynes"
+      />
     </div>
   </div>
 </template>
@@ -38,7 +40,16 @@ h2 {
 }
 .about-wrapper {
   display: flex;
-  padding: 4rem 18rem;
+  padding: 6rem 18rem;
+}
+a {
+  text-decoration: none;
+  color: #190540;
+}
+
+a:hover {
+  color: #fedb63;
+  cursor: pointer;
 }
 
 .right {
@@ -70,13 +81,14 @@ h2 {
 
 .p-about {
   margin-top: 30px;
-  padding-right: 50px;
+  padding-right: 110px;
   font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1500px) {
   .p-about {
     font-size: 1.25rem;
+    padding-right: 90px;
   }
 }
 

@@ -3,22 +3,31 @@
     <h1>Projects</h1>
     <div class="projects-section">
       <div class="single-project">
-        <h2>Project Title</h2>
-        <img src="../assets/project1.jpg" width="70%" alt="" />
-        <p>Here is all about my project blah blah blah</p>
-        <p>Tech Stack: React, Styled-Components</p>
-      </div>
-      <div class="single-project">
-        <h2>Project Title</h2>
-        <img src="../assets/project1.jpg" width="70%" alt="" />
-        <p>Here is all about my project blah blah blah</p>
-        <p>Tech Stack: React, Styled-Components</p>
-      </div>
-      <div class="single-project">
-        <h2>Project Title</h2>
-        <img src="../assets/project1.jpg" width="70%" alt="" />
-        <p>Here is all about my project blah blah blah</p>
-        <p>Tech Stack: React, Styled-Components</p>
+        <h2>Girls Just Want To Have Fund$</h2>
+        <img
+          src="../assets/project1.jpg"
+          class="project-img"
+          alt="Girls Just Want To Have Fund$ - Project"
+        />
+        <p>
+          Built at the 2021 SheHacks Hackathon, React based application with
+          Avatar API and styled-components this app is a friendly introduction
+          to finance for girls between the age of 10-15.
+        </p>
+        <p>
+          <strong>Tech Stack:</strong> JavaScript, React, styled-components,
+          Avataaars API
+        </p>
+        <a
+          href="https://github.com/splashley/girls-just-want-to-have-funds-app"
+          target="_blank"
+          ><button class="project-btn">View on Github</button></a
+        >
+        <a
+          href="https://girls-just-want-to-have-funds.netlify.app/"
+          target="_blank"
+          ><button class="project-btn">View App</button></a
+        >
       </div>
     </div>
   </div>
@@ -31,6 +40,7 @@ export default {};
 <style scoped>
 h2 {
   margin: 10px 0;
+  padding: 5px;
 }
 .projects {
   text-align: left;
@@ -45,8 +55,7 @@ h2 {
 .single-project {
   background-color: #f3f0f5;
   border-radius: 5px;
-  width: 350px;
-  height: 400px;
+  width: 390px;
   padding: 10px;
   margin: 20px;
   text-align: center;
@@ -54,6 +63,29 @@ h2 {
 
 .single-project:first-child {
   margin-left: 0;
+}
+
+.single-project p {
+  font-size: 0.9rem;
+  text-align: left;
+  padding: 10px;
+}
+
+.project-img {
+  border-radius: 10px;
+  width: 90%;
+}
+
+.project-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  font-family: "Quicksand", sans-serif;
+  background-color: #3b2f53;
+  color: white;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -69,6 +101,10 @@ h2 {
 }
 
 @media only screen and (max-width: 768px) {
+  h2 {
+font-size: 1.25rem;
+  }
+
   .projects-section {
     display: flex;
     flex-direction: column;
@@ -76,6 +112,11 @@ h2 {
   .single-project {
     margin-left: 0;
     margin-top: 20px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
   }
 
   .projects {

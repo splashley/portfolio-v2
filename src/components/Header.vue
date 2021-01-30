@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <nav class="header">
     <div class="nav-links">
       <ul>
         <li><a href="#Projects">Projects</a></li>
@@ -10,7 +10,7 @@
     <div>
       <SocialMediaIcons />
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>

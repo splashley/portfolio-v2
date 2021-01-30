@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <p>Designed by me & created with VueJS</p>
+    <p>Made with love by me using Vue.js</p>
   </div>
 </template>
 
