@@ -7,7 +7,7 @@
       </div>
       <div>
         <p class="p-about">
-          I'm a front-end developer who recently completed a Full-Stack Web
+          I'm a frontend developer who recently completed a Full-Stack Web
           Development coding bootcamp at Concordia University. Since graduating,
           I've been hard at work expanding my knowledge of new web frameworks.
           In my spare time I stream web development on Twitch, you can watch me
