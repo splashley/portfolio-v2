@@ -1,8 +1,8 @@
 <template>
   <div class="social-media-icons">
-     <a href="https://twitter.com/splashleycodes" target="_blank"><i class="fab fa-twitter fa-2x" alt="Twitter Logo Link"></i></a>
-      <a href="https://github.com/splashley" target="_blank"><i class="fab fa-github fa-2x" alt="Github Logo Link"></i></a>
-       <a href="https://www.linkedin.com/in/ashley-hynes/" target="_blank"><i class="fab fa-linkedin fa-2x" alt="LinkedIn Logo Link"></i></a>
+     <a href="https://twitter.com/splashleycodes" target="_blank" rel="noopener"><i class="fab fa-twitter fa-2x" alt="Twitter Logo Link"></i></a>
+      <a href="https://github.com/splashley" target="_blank" rel="noopener"><i class="fab fa-github fa-2x" alt="Github Logo Link"></i></a>
+       <a href="https://www.linkedin.com/in/ashley-hynes/" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-2x" alt="LinkedIn Logo Link"></i></a>
   </div>
 </template>
 

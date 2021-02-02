@@ -2,9 +2,9 @@
   <nav class="header">
     <div class="nav-links">
       <ul>
-        <li><a href="#Projects" @click="viewProjects()" aria-label="View My Projects">Projects</a></li>
-        <li><a href="#Skills" aria-label="View My Skills">Skills</a></li>
-        <li><a href="#Contact" aria-label="Contact Me">Contact</a></li>
+        <li><a href="#Projects" @click="viewProjects()" aria-label="View My Projects" rel="noopener">Projects</a></li>
+        <li><a href="#Skills" aria-label="View My Skills" rel="noopener">Skills</a></li>
+        <li><a href="#Contact" aria-label="Contact Me" rel="noopener">Contact</a></li>
       </ul>
     </div>
     <div>
