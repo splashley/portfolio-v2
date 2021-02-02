@@ -8,7 +8,6 @@
 
 <style scoped>
 .scrollUpBtn {
-  /* display: none; */
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -16,7 +15,7 @@
   cursor: pointer;
   color: white;
   font-size: 2rem;
-  padding: 10px 15px 5x 15px;
+  padding: 10px 15px;
   border-radius: 10px;
   border: none;
 }
