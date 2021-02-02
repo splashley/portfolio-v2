@@ -10,8 +10,8 @@
           I'm a frontend developer who recently completed a Full-Stack Web
           Development coding bootcamp at Concordia University. Since graduating,
           I've been hard at work expanding my knowledge of new web frameworks.
-          In my spare time I stream web development on Twitch, you can watch me
-          <a href="https://www.twitch.com/splashley" target="_blank">here</a>.
+          In my spare time I stream web development on
+          <a href="https://www.twitch.com/splashley" target="_blank">Twitch</a>.
         </p>
       </div>
     </div>
@@ -45,6 +45,7 @@ h2 {
 a {
   text-decoration: none;
   color: #190540;
+  letter-spacing: normal;
 }
 
 a:hover {

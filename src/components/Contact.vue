@@ -1,13 +1,15 @@
 <template>
   <div class="hello" id="Contact">
-<h1>Contact</h1>
-<p>You can contact me at <a href="mailto:ashleyjlhynes@gmail.com">ashleyjlhynes@gmail.com</a></p>
+    <h1>Contact</h1>
+    <p>
+      You can contact me at
+      <a href="mailto:ashleyjlhynes@gmail.com">ashleyjlhynes@gmail.com</a>
+    </p>
   </div>
 </template>
 
 <script>
-export default {
-};
+export default {};
 </script>
 
 <style scoped>
@@ -22,23 +24,24 @@ p {
 
 a {
   color: #190540;
+  letter-spacing: normal;
 }
 
 @media only screen and (max-width: 1200px) {
-div {
-  padding: 3rem 10rem;
-}
+  div {
+    padding: 3rem 10rem;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
-div {
-  padding: 2rem 8rem;
-}
+  div {
+    padding: 2rem 8rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-div {
-  padding: 1rem 2rem;
-}
+  div {
+    padding: 1rem 2rem;
+  }
 }
 </style>
