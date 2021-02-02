@@ -16,7 +16,7 @@
   cursor: pointer;
   color: white;
   font-size: 2rem;
-  padding: 10px 15px 5px 15px;
+  padding: 10px 15px 5x 15px;
   border-radius: 10px;
   border: none;
 }
