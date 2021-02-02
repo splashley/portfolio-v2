@@ -4,14 +4,14 @@
       <div class="nav-links">
         <ul>
           <li>
-            <a @click="viewProjects()" aria-label="View My Projects"
+            <a @click="viewProjects()" aria-label="View My Projects" rel="noopener"
               >Projects</a
             >
           </li>
           <li>
-            <a @click="viewSkills()" aria-label="View My Skills">Skills</a>
+            <a @click="viewSkills()" aria-label="View My Skills" rel="noopener">Skills</a>
           </li>
-          <li><a @click="viewContact()" aria-label="Contact Me">Contact</a></li>
+          <li><a @click="viewContact()" aria-label="Contact Me" rel="noopener">Contact</a></li>
         </ul>
       </div>
       <div>
