@@ -1,5 +1,5 @@
 <template>
-  <button @click="$emit('scroll-up')" class="scrollUpBtn">
+  <button @click="$emit('scroll-up')" class="scrollUpBtn" aria-label="Scroll Back Up">>
     <i class="fas fa-arrow-up"></i>
   </button>
 </template>
