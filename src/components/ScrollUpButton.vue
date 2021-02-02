@@ -25,5 +25,18 @@
   background: #bcafc4;
 }
 @media only screen and (max-width: 768px) {
+    .scrollUpBtn {
+  background: #fedb63;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border: none;
+}
 }
 </style>
