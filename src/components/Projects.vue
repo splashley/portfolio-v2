@@ -21,11 +21,15 @@
         <a
           href="https://github.com/splashley/girls-just-want-to-have-funds-app"
           target="_blank"
+          rel="noopener"
+          aria-label="View on Github"
           ><button class="project-btn">View on Github</button></a
         >
         <a
           href="https://girls-just-want-to-have-funds.netlify.app/"
           target="_blank"
+          rel="noopener"
+          aria-label="View App"
           ><button class="project-btn">View App</button></a
         >
       </div>
