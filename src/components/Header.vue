@@ -2,9 +2,9 @@
   <nav class="header">
     <div class="nav-links">
       <ul>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Skills">Skills</a></li>
-        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Projects" @click="viewProjects()" aria-label="View My Projects">Projects</a></li>
+        <li><a href="#Skills" aria-label="View My Skills">Skills</a></li>
+        <li><a href="#Contact" aria-label="Contact Me">Contact</a></li>
       </ul>
     </div>
     <div>
@@ -17,7 +17,14 @@
 import SocialMediaIcons from "./SocialMediaIcons.vue";
 export default {
   name: "Header",
-  components: { SocialMediaIcons }
+  components: { SocialMediaIcons },
+  methods: {
+    viewProjects: function(){
+      const projectId = document.getElementById(Projects);
+      projectId.scrollIntoView({block: center}),
+
+    }
+  }
 };
 </script>
 
