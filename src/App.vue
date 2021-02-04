@@ -4,14 +4,23 @@
       <div class="nav-links">
         <ul>
           <li>
-            <a @click="viewProjects()" aria-label="View My Projects" rel="noopener"
+            <a
+              @click="viewProjects()"
+              aria-label="View My Projects"
+              rel="noopener"
               >Projects</a
             >
           </li>
           <li>
-            <a @click="viewSkills()" aria-label="View My Skills" rel="noopener">Skills</a>
+            <a @click="viewSkills()" aria-label="View My Skills" rel="noopener"
+              >Skills</a
+            >
           </li>
-          <li><a @click="viewContact()" aria-label="Contact Me" rel="noopener">Contact</a></li>
+          <li>
+            <a @click="viewContact()" aria-label="Contact Me" rel="noopener"
+              >Contact</a
+            >
+          </li>
         </ul>
       </div>
       <div>
@@ -101,11 +110,13 @@ a {
   color: #190540;
   text-decoration: none;
   letter-spacing: 0.1rem;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
   color: #fedb63;
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 ul {

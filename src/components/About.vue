@@ -11,7 +11,12 @@
           Development coding bootcamp at Concordia University. Since graduating,
           I've been hard at work expanding my knowledge of new web frameworks.
           In my spare time I stream web development on
-          <a href="https://www.twitch.com/splashley" target="_blank" rel="noopener">Twitch</a>.
+          <a
+            href="https://www.twitch.com/splashley"
+            target="_blank"
+            rel="noopener"
+            >Twitch</a
+          >.
         </p>
       </div>
     </div>
@@ -46,11 +51,13 @@ a {
   text-decoration: none;
   color: #190540;
   letter-spacing: normal;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
   color: #fedb63;
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 .right {

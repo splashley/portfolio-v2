@@ -27,11 +27,13 @@ export default {
 a {
 color: #190540;
 text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
   color: #fedb63;
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 1200px) {
