@@ -3,7 +3,9 @@
     <h1>Projects</h1>
     <div class="projects-section">
       <div class="single-project">
-        <h2>Girls Just Want To Have Fund$</h2>
+        <div class="h2-height">
+          <h2>Girls Just Want To Have Fund$</h2>
+        </div>
         <img
           src="../assets/project1.jpg"
           class="project-img"
@@ -15,8 +17,7 @@
           to finance for girls between the age of 10-15.
         </p>
         <p>
-          <strong>Tech Stack:</strong> JavaScript, React, styled-components,
-          Avataaars API
+          <strong>Tech Stack:</strong> React, styled-components, Avataaars API
         </p>
         <a
           href="https://github.com/splashley/girls-just-want-to-have-funds-app"
@@ -33,6 +34,34 @@
           ><button class="project-btn">View App</button></a
         >
       </div>
+      <div class="single-project">
+        <div class="h2-height">
+          <h2>All About Wine</h2>
+        </div>
+        <img
+          src="../assets/project2.jpg"
+          class="project-img"
+          alt="All About Wine - Project"
+        />
+        <p>
+        A small web app built using the Spoonacular API to quickly find information about your favorite wines and food pairings to go along with.
+        </p>
+        <p><strong>Tech Stack:</strong> Vue.js, Vuex, Spoonacular API</p>
+        <a
+          href="https://github.com/splashley/all-about-wine-app"
+          target="_blank"
+          rel="noopener"
+          aria-label="View on Github"
+          ><button class="project-btn">View on Github</button></a
+        >
+        <a
+          href="https://all-about-wine.netlify.app/"
+          target="_blank"
+          rel="noopener"
+          aria-label="View App"
+          ><button class="project-btn">View App</button></a
+        >
+      </div>
     </div>
   </div>
 </template>
@@ -43,7 +72,8 @@ export default {};
 
 <style scoped>
 h2 {
-  margin: 10px 0;
+  font-size: 1.25rem;
+  margin: auto 0;
   padding: 5px;
 }
 .projects {
@@ -54,6 +84,13 @@ h2 {
 
 .projects-section {
   display: flex;
+}
+
+.h2-height {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .single-project {
@@ -78,6 +115,7 @@ h2 {
 .project-img {
   border-radius: 10px;
   width: 90%;
+  height: 200px;
 }
 
 .project-btn {
@@ -106,7 +144,7 @@ h2 {
 
 @media only screen and (max-width: 768px) {
   h2 {
-font-size: 1.25rem;
+    font-size: 1.25rem;
   }
 
   .projects-section {
