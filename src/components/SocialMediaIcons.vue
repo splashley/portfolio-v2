@@ -1,20 +1,27 @@
 <template>
   <div class="social-media-icons">
-     <a href="https://twitter.com/splashleycodes" target="_blank" rel="noopener"><i class="fab fa-twitter fa-2x" alt="Twitter Logo Link"></i></a>
-      <a href="https://github.com/splashley" target="_blank" rel="noopener"><i class="fab fa-github fa-2x" alt="Github Logo Link"></i></a>
-       <a href="https://www.linkedin.com/in/ashley-hynes/" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-2x" alt="LinkedIn Logo Link"></i></a>
+    <a href="https://twitter.com/splashleycodes" target="_blank" rel="noopener"
+      ><i class="fab fa-twitter fa-2x" alt="Twitter Logo Link"></i
+    ></a>
+    <a href="https://github.com/splashley" target="_blank" rel="noopener"
+      ><i class="fab fa-github fa-2x" alt="Github Logo Link"></i
+    ></a>
+    <a
+      href="https://www.linkedin.com/in/ashley-hynes/"
+      target="_blank"
+      rel="noopener"
+      ><i class="fab fa-linkedin fa-2x" alt="LinkedIn Logo Link"></i
+    ></a>
   </div>
 </template>
 
 <script>
-export default {
-};
+export default {};
 </script>
 
 <style scoped>
-
 .social-media-icons {
-  color:  #190540;
+  color: #190540;
   margin: 0;
   text-align: right;
   padding: 1rem;
@@ -25,9 +32,17 @@ export default {
 }
 
 a {
-color: #190540;
-text-decoration: none;
+  color: #190540;
+  text-decoration: none;
   transition: all 0.2s ease-in-out;
+}
+
+i {
+  transition: all 0.2s ease-in-out;
+}
+
+i:hover {
+  transform: scale(1.2);
 }
 
 a:hover {
@@ -37,23 +52,23 @@ a:hover {
 }
 
 @media only screen and (max-width: 1200px) {
-.social-media-icons img {
-  padding: 0 6px;
-  width: 40px;
-}
+  .social-media-icons img {
+    padding: 0 6px;
+    width: 40px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
-.social-media-icons img {
+  .social-media-icons img {
     padding: 0 6px;
-  width: 40px;
-}
+    width: 40px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-.social-media-icons img {
+  .social-media-icons img {
     padding: 0 6px;
-  width: 40px;
-}
+    width: 40px;
+  }
 }
 </style>
