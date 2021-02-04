@@ -161,6 +161,10 @@ h2 {
     text-align: center;
   }
 
+  .single-project:first-child {
+  margin-left: 20px;
+}
+
   .projects {
     padding: 1rem 2rem;
   }
