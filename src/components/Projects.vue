@@ -12,8 +12,7 @@
           alt="Girls Just Want To Have Fund$ - Project"
         />
         <p>
-          Built at the 2021 SheHacks Hackathon, React based application with
-          Avatar API and styled-components this app is a friendly introduction
+          Built at the 2021 SheHacks Hackathon, this app is a friendly introduction
           to finance for girls between the age of 10-15.
         </p>
         <p>
