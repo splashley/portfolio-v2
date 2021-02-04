@@ -44,7 +44,9 @@
           alt="All About Wine - Project"
         />
         <p>
-        A small web app built using the Spoonacular API to quickly find information about your favorite wines and food pairings to go along with.
+          A small web app built using the Spoonacular API to quickly find
+          information about your favorite wines and food pairings to go along
+          with.
         </p>
         <p><strong>Tech Stack:</strong> Vue.js, Vuex, Spoonacular API</p>
         <a
@@ -125,9 +127,15 @@ h2 {
   margin: 10px;
   width: 150px;
   font-family: "Quicksand", sans-serif;
-  background-color: #3b2f53;
+  background: #190540;
   color: white;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-btn:hover {
+  background: #190540;
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -162,8 +170,8 @@ h2 {
   }
 
   .single-project:first-child {
-  margin-left: 20px;
-}
+    margin-left: 20px;
+  }
 
   .projects {
     padding: 1rem 2rem;
