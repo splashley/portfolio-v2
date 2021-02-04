@@ -116,7 +116,7 @@ h2 {
 .project-img {
   border-radius: 10px;
   width: 90%;
-  height: 200px;
+  height: 50%;
 }
 
 .project-btn {
@@ -137,16 +137,35 @@ h2 {
   transform: scale(1.2);
 }
 
+@media only screen and (max-width: 1300px) {
+    .project-img {
+  border-radius: 10px;
+  width: 90%;
+  height: 40%;
+}
+}
+
 @media only screen and (max-width: 1200px) {
   .projects {
     padding: 3rem 10rem;
   }
+
+  .project-img {
+  border-radius: 10px;
+  width: 90%;
+  height: 40%;
+}
 }
 
 @media only screen and (max-width: 1024px) {
   .projects {
     padding: 2rem 8rem;
   }
+    .project-img {
+  border-radius: 10px;
+  width: 90%;
+  height: 30%;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -171,6 +190,12 @@ h2 {
   .single-project:first-child {
     margin-left: 20px;
   }
+
+  .project-img {
+  border-radius: 10px;
+  width: 90%;
+  height: 50%;
+}
 
   .projects {
     padding: 1rem 2rem;
