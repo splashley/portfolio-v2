@@ -12,8 +12,8 @@
           alt="Girls Just Want To Have Fund$ - Project"
         />
         <p>
-          Built at the 2021 SheHacks Hackathon, this app is a friendly introduction
-          to finance for girls between the age of 10-15.
+          Built at the 2021 SheHacks Hackathon, this app is a friendly
+          introduction to finance for girls between the age of 10-15.
         </p>
         <p>
           <strong>Tech Stack:</strong> React, styled-components, Avataaars API
@@ -138,11 +138,11 @@ h2 {
 }
 
 @media only screen and (max-width: 1300px) {
-    .project-img {
-  border-radius: 10px;
-  width: 90%;
-  height: 40%;
-}
+  .project-img {
+    border-radius: 10px;
+    width: 90%;
+    height: 40%;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -151,21 +151,21 @@ h2 {
   }
 
   .project-img {
-  border-radius: 10px;
-  width: 90%;
-  height: 40%;
-}
+    border-radius: 10px;
+    width: 90%;
+    height: 40%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
   .projects {
     padding: 2rem 8rem;
   }
-    .project-img {
-  border-radius: 10px;
-  width: 90%;
-  height: 30%;
-}
+  .project-img {
+    border-radius: 10px;
+    width: 90%;
+    height: 30%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -178,24 +178,23 @@ h2 {
     flex-direction: column;
   }
   .single-project {
-    margin-left: 0;
+    margin-left: 0px;
     margin-top: 20px;
     border-radius: 5px;
     width: 200px;
     padding: 10px;
-    margin: 20px;
     text-align: center;
   }
 
   .single-project:first-child {
-    margin-left: 20px;
+    margin-left: 0px;
   }
 
   .project-img {
-  border-radius: 10px;
-  width: 90%;
-  height: 50%;
-}
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
+  }
 
   .projects {
     padding: 1rem 2rem;
