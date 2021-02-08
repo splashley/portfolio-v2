@@ -181,7 +181,7 @@ h2 {
     margin-left: 0px;
     margin-top: 20px;
     border-radius: 5px;
-    width: 200px;
+    width: 300px;
     padding: 10px;
     text-align: center;
   }

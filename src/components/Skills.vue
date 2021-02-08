@@ -92,7 +92,7 @@ export default {
     font-size: 1.5rem;
     background-color: #f3f0f5;
   border-radius: 5px;
-  width: 200px;
+  width: 300px;
   height: 100%;
   padding: 30px;
 }
