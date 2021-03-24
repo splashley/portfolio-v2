@@ -23,9 +23,9 @@ export default {
   data() {
     return {
       skills: [
-        { name: "Frontend", sublist: ["HTML/CSS", "Javascript", "React.js", "Vue.js", "Styled-Components", "TailwindCSS"] },
-        { name: "Backend", sublist: ["Node.js", "Express", "MongoDB"] },
-        { name: "Tools", sublist: ["Github", "Git", "JIRA", "Trello", "Asana", "Adobe Photoshop", "Adobe XD"] }
+        { name: "Frontend", sublist: ["HTML/CSS", "Javascript", "React.js", "Vue.js", "Styled-Components", "TailwindCSS", "Bootstrap"] },
+        { name: "Backend", sublist: ["Node.js", "Express", "MongoDB", "Firebase", "Puppeteer"] },
+        { name: "Tools", sublist: ["Github", "Git", "JIRA", "Trello", "Asana", "Adobe Photoshop", "Adobe XD", "Figma"] }
       ]
     };
   }

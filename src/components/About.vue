@@ -22,7 +22,7 @@
     </div>
     <div class="right">
       <img
-        src="@/assets/test.png"
+        src="@/assets/portrait.png"
         width="400px"
         alt="A portrait of Ashley Hynes"
       />
