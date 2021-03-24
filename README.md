@@ -1,24 +1,11 @@
-# portfolio-v2
+# My Current Portfolio Page
 
-## Project setup
-```
-npm install
-```
+**Link to project:** www.ashleyhynes.com
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## How It's Made:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+**Tech used:** HTML, CSS, JavaScript, Vue.js
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Lessons Learned:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Learned more about web accessibility
