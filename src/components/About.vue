@@ -46,6 +46,7 @@ h2 {
 .about-wrapper {
   display: flex;
   padding: 6rem 18rem;
+  text-align: left;
 }
 a {
   text-decoration: none;
