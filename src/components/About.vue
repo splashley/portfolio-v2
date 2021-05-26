@@ -7,7 +7,7 @@
       </div>
       <div>
         <p class="p-about">
-          I'm a frontend developer based in Montréal, Québec. I love exploring new technologies and building awesome apps! I'm also a certified Scrum Product Owner.
+          I'm a frontend developer based in Montréal, Québec. I love exploring new technologies and designing + building awesome apps! I'm also a certified Scrum Product Owner.
           Since graduating from the Full-Stack Web Development bootcamp at Concordia University,
           I've been hard at work expanding my knowledge of web development.
           In my spare time I stream web development on
