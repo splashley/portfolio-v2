@@ -7,9 +7,9 @@
       </div>
       <div>
         <p class="p-about">
-          I'm a frontend developer who recently completed a Full-Stack Web
-          Development coding bootcamp at Concordia University. Since graduating,
-          I've been hard at work expanding my knowledge of new web frameworks.
+          I'm a frontend developer based in Montréal, Québec. I love exploring new technologies and designing + building awesome apps! I'm also a certified Scrum Product Owner.
+          Since graduating from the Full-Stack Web Development bootcamp at Concordia University,
+          I've been hard at work expanding my knowledge of web development.
           In my spare time I stream web development on
           <a
             href="https://www.twitch.com/splashley"
@@ -46,6 +46,7 @@ h2 {
 .about-wrapper {
   display: flex;
   padding: 6rem 18rem;
+  text-align: left;
 }
 a {
   text-decoration: none;

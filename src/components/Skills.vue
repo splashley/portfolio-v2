@@ -35,6 +35,7 @@ export default {
 <style scoped>
 .skills {
   padding: 4rem 18rem;
+  text-align: left;
 }
 
 .skills-group {
