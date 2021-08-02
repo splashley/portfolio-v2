@@ -33,34 +33,13 @@
           ><button class="project-btn">View App</button></a
         >
       </div>
-      <div class="single-project">
-        <div class="h2-height">
-          <h2>All About Wine</h2>
-        </div>
-        <img
-          src="../assets/project2.jpg"
-          class="project-img"
-          alt="All About Wine - Project"
-        />
-        <p>
-          A small web app built using the Spoonacular API to quickly find
-          information about your favorite wines and food pairings to go along
-          with.
-        </p>
-        <p><strong>Tech Stack:</strong> Vue.js, Vuex, Spoonacular API</p>
+            <div class="single-project">
         <a
           href="https://github.com/splashley/all-about-wine-app"
           target="_blank"
           rel="noopener"
-          aria-label="View on Github"
-          ><button class="project-btn">View on Github</button></a
-        >
-        <a
-          href="https://all-about-wine.netlify.app/"
-          target="_blank"
-          rel="noopener"
-          aria-label="View App"
-          ><button class="project-btn">View App</button></a
+          aria-label="See more Projects on Github"
+          ><button class="project-btn">See more Projects on Github</button></a
         >
       </div>
     </div>
@@ -121,19 +100,19 @@ h2 {
 
 .project-btn {
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
   margin: 10px;
   width: 150px;
-  font-family: "Quicksand", sans-serif;
-  background: #190540;
+  font-family: "TTNormsPro-Regular", sans-serif;
+  background: #8B7E8D;
   color: white;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
 .project-btn:hover {
-  background: #190540;
+  background: #8B7E8D;
   transform: scale(1.2);
 }
 
@@ -151,9 +130,7 @@ h2 {
   }
 
   .project-img {
-    border-radius: 10px;
-    width: 90%;
-    height: 40%;
+    display: none;
   }
 }
 

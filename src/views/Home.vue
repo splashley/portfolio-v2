@@ -1,32 +1,5 @@
 <template>
   <div id="app">
-    <nav id="header" class="header">
-      <div class="nav-links">
-        <ul>
-          <li>
-            <a
-              @click="viewProjects()"
-              aria-label="View My Projects"
-              rel="noopener"
-              >Projects</a
-            >
-          </li>
-          <li>
-            <a @click="viewSkills()" aria-label="View My Skills" rel="noopener"
-              >Skills</a
-            >
-          </li>
-          <li>
-            <a @click="viewContact()" aria-label="Contact Me" rel="noopener"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div>
-        <SocialMediaIcons />
-      </div>
-    </nav>
     <About />
     <Projects id="Projects" />
     <Skills id="Skills" />
@@ -37,20 +10,16 @@
 
 <script>
 import About from "../components/About.vue";
-import SocialMediaIcons from "../components/SocialMediaIcons.vue";
-import Projects from "../components/Projects.vue";
-import Skills from "../components/Skills.vue";
-import Contact from "../components/Contact.vue";
+// import SocialMediaIcons from "../components/SocialMediaIcons.vue";
+// import Projects from "../components/Projects.vue";
+// import Skills from "../components/Skills.vue";
+// import Contact from "../components/Contact.vue";
 import ScrollUpButton from "../components/ScrollUpButton.vue";
 
 export default {
   name: "Home",
   components: {
-    SocialMediaIcons,
     About,
-    Projects,
-    Skills,
-    Contact,
     ScrollUpButton
   },
   methods: {
@@ -77,7 +46,7 @@ export default {
 
 <style>
 #app {
-  font-family: "Quicksand", sans-serif;
+  font-family: "TTNormsPro-Regular", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #190540;

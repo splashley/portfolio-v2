@@ -23,9 +23,9 @@ export default {
   data() {
     return {
       skills: [
-        { name: "Frontend", sublist: ["HTML/CSS", "Javascript", "React.js", "Vue.js", "Styled-Components", "TailwindCSS", "Bootstrap"] },
+        { name: "Frontend", sublist: ["HTML", "CSS", "Javascript", "React.js", "Vue.js", "Styled-Components", "TailwindCSS", "Bootstrap"] },
         { name: "Backend", sublist: ["Node.js", "Express", "MongoDB", "Firebase", "Puppeteer"] },
-        { name: "Tools", sublist: ["Github", "Git", "JIRA", "Trello", "Asana", "Adobe Photoshop", "Adobe XD", "Figma"] }
+        { name: "Tools", sublist: ["Github", "Git", "JIRA / Trello", "ClickUp", "Notion", "Adobe Photoshop, XD", "Figma", "WordPress", "Shopify"] }
       ]
     };
   }
@@ -53,7 +53,7 @@ export default {
     background-color: #f3f0f5;
   border-radius: 5px;
   width: 350px;
-  height: 350px;
+  height: 400px;
   padding: 30px;
 }
 
