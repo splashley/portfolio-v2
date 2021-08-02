@@ -2,15 +2,22 @@
   <div class="about-wrapper" id="About">
     <div class="left">
       <div class="slide-right">
-        <h1><span class="box">Hi, I'm Ashley</span></h1>
+        <h1><span class="box">Hi, I'm Ashley 👋</span></h1>
         <h2>Frontend Developer</h2>
       </div>
       <div>
         <p class="p-about">
-          I'm a frontend developer based in Montréal, Québec. I love exploring new technologies and designing + building awesome apps! I'm also a certified Scrum Product Owner.
-          Since graduating from the Full-Stack Web Development bootcamp at Concordia University,
-          I've been hard at work expanding my knowledge of web development.
-          In my spare time I stream web development on
+          I'm a frontend developer based in Montréal, Québec. I love exploring
+          new technologies and designing + building awesome apps! I'm also a
+          certified Scrum Product Owner. Since graduating from the Full-Stack
+          Web Development bootcamp at Concordia University, I've been hard at
+          work expanding my knowledge of web development. You can find my work on <a
+            href="https://github.com/splashley"
+            target="_blank"
+            rel="noopener"
+            >Github</a
+          >. In my spare time I
+          stream web development on
           <a
             href="https://www.twitch.com/splashley"
             target="_blank"
@@ -18,6 +25,24 @@
             >Twitch</a
           >.
         </p>
+        <p class="p-about">You can reach me through the links below 👇</p>
+        <div class="social-media-icons">
+          <a
+            href="https://twitter.com/splashleycodes"
+            target="_blank"
+            rel="noopener"
+            ><i class="fab fa-twitter fa-2x" alt="Twitter Logo Link"></i
+          ></a>
+          <a href="https://github.com/splashley" target="_blank" rel="noopener"
+            ><i class="fab fa-github fa-2x" alt="Github Logo Link"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ashley-hynes/"
+            target="_blank"
+            rel="noopener"
+            ><i class="fab fa-linkedin fa-2x" alt="LinkedIn Logo Link"></i
+          ></a>
+        </div>
       </div>
     </div>
     <div class="right">
@@ -45,7 +70,7 @@ h2 {
 }
 .about-wrapper {
   display: flex;
-  padding: 6rem 18rem;
+  padding: 10rem 18rem 3rem 18rem;
   text-align: left;
 }
 a {
@@ -56,7 +81,7 @@ a {
 }
 
 a:hover {
-  color: #fedb63;
+  color: #8b7e8d;
   cursor: pointer;
   transform: scale(1.2);
 }
@@ -84,7 +109,7 @@ h2 {
   width: 100%;
   height: 30px;
   bottom: 0px;
-  background: #fedb63;
+  background: #f3f0f5;
   z-index: -1;
 }
 
@@ -164,6 +189,58 @@ h2 {
   }
   .right img {
     display: none;
+  }
+}
+
+.social-media-icons {
+  color: #190540;
+  margin: 0;
+  text-align: left;
+  padding: 2rem 0;
+}
+
+.social-media-icons i {
+  padding: 0 10px;
+}
+
+a {
+  color: #190540;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+i {
+  transition: all 0.2s ease-in-out;
+}
+
+i:hover {
+  transform: scale(1.2);
+}
+
+a:hover {
+  color: #fedb63;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1200px) {
+  .social-media-icons img {
+    padding: 0 6px;
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .social-media-icons img {
+    padding: 0 6px;
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .social-media-icons img {
+    padding: 0 6px;
+    width: 40px;
   }
 }
 </style>
