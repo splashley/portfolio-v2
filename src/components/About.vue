@@ -3,13 +3,13 @@
     <div class="left">
       <div class="slide-right">
         <h1><span class="box">Hi, I'm Ashley 👋</span></h1>
-        <h2>Frontend Developer</h2>
+        <h2>Frontend Developer, Pro Cat Mom</h2>
       </div>
       <div>
         <p class="p-about">
-          I'm a frontend developer based in Montréal, Québec. I love exploring
+          Based in Montréal, Québec. I love exploring
           new technologies and designing + building awesome apps! I'm also a
-          certified Scrum Product Owner. Since graduating from the Full-Stack
+          certified Scrum Product Owner. <br />Since graduating from the Full-Stack
           Web Development bootcamp at Concordia University, I've been hard at
           work expanding my knowledge of web development. You can find my work on <a
             href="https://github.com/splashley"
