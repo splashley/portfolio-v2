@@ -1,5 +1,4 @@
 import "./App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import portrait from "./assets/portrait.png";
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
       </header> */}
       <div className="content">
         <div className="content-left">
-          <img src={portrait} alt="Image of Ashley Hynes" className="portrait" />
+          <img src={portrait} alt="Ashley Hynes" className="portrait" />
         </div>
         <div className="content-right">
           <h1>Hi, I'm Splashley 😊</h1>
